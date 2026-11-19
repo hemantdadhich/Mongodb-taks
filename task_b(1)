@@ -1,0 +1,15 @@
+db.books.insertMany([
+  { title: "Operating Systems", author: "Silberschatz", copies: 4 },
+  { title: "Database System Concepts", author: "Korth", copies: 3 }
+]);
+
+
+db.books.updateOne(
+    { title: "Operating Systems" },
+    {
+        $inc: { copies: 2 }
+    }
+);
+
+
+db.books.find({}, { _id: 0 });
