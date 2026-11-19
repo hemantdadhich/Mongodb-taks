@@ -1,0 +1,17 @@
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6afea9f09bcd57422cc55535'),
+    '1': ObjectId('6afea9f09bcd57422cc55536'),
+    '2': ObjectId('6afea9f09bcd57422cc55537'),
+    '3': ObjectId('6afea9f09bcd57422cc55538'),
+    '4': ObjectId('6afea9f09bcd57422cc55539')
+  }
+}
+
+
+[
+  { _id: 'delivered', count: 3 },
+  { _id: 'cancelled', count: 1 },
+  { _id: 'pending', count: 1 }
+]
