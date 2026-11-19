@@ -1,0 +1,13 @@
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6afead190bca17db5db73ea8'),
+    '1': ObjectId('6afead190bca17db5db73ea9'),
+    '2': ObjectId('6afead190bca17db5db73eaa')
+  }
+}
+
+[
+  { customer: 'Aarav', item: 'Laptop', qty: 1 },
+  { customer: 'Rohan', item: 'Keyboard', qty: 1 }
+]
