@@ -1,0 +1,15 @@
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6afeadf9d2ee8316d6136f62'),
+    '1': ObjectId('6afeadf9d2ee8316d6136f63'),
+    '2': ObjectId('6afeadf9d2ee8316d6136f64'),
+    '3': ObjectId('6afeadf9d2ee8316d6136f65')
+  }
+}
+
+
+[
+  { orders: 2, totalSpend: 61000, customer: 'Aarav' },
+  { orders: 1, totalSpend: 15000, customer: 'Priya' }
+]
