@@ -1,0 +1,28 @@
+
+db.orders.insertMany([
+  { orderId: 101, customer: "Aarav", item: "Laptop", qty: 1, price: 60000, status: "delivered" },
+  { orderId: 102, customer: "Priya", item: "Mouse", qty: 3, price: 500, status: "delivered" },
+  { orderId: 103, customer: "Rohan", item: "Laptop", qty: 2, price: 60000, status: "delivered" },
+  { orderId: 104, customer: "Neha", item: "Keyboard", qty: 1, price: 1500, status: "pending" }
+]);
+
+
+db.orders.aggregate([
+    {
+        $match: { status: "delivered" }
+    },
+    {
+        $group: {
+            _id: "$item",
+            totalQty: { $sum: "$qty" },
+            revenue: {
+                $sum: {
+                    $multiply: ["$qty", "$price"]
+                }
+            }
+        }
+    },
+    {
+        $sort: { revenue: -1 }
+    }
+]);
