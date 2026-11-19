@@ -1,0 +1,12 @@
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6afeae4a2eaac9f8dffa3ef8'),
+    '1': ObjectId('6afeae4a2eaac9f8dffa3ef9'),
+    '2': ObjectId('6afeae4a2eaac9f8dffa3efa'),
+    '3': ObjectId('6afeae4a2eaac9f8dffa3efb')
+  }
+}
+
+
+[ { totalSpend: 61000, customer: 'Aarav' } ]
