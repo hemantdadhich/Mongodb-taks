@@ -1,0 +1,15 @@
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6afead75250f68e0c47cc842'),
+    '1': ObjectId('6afead75250f68e0c47cc843'),
+    '2': ObjectId('6afead75250f68e0c47cc844'),
+    '3': ObjectId('6afead75250f68e0c47cc845')
+  }
+}
+
+
+[
+  { _id: 'Laptop', totalQty: 3, revenue: 180000 },
+  { _id: 'Mouse', totalQty: 3, revenue: 1500 }
+]
