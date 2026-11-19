@@ -1,0 +1,13 @@
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+
+[
+  { title: 'Operating Systems', author: 'Silberschatz', copies: 6 },
+  { title: 'Database System Concepts', author: 'Korth', copies: 3 }
+]
